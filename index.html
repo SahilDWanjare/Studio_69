@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio_69</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main_box">
+        <input type="checkbox" id="check" />
+        <div class="btn_one">
+            <label for="check">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+        <div id="brand">
+             &nbsp;<h5>Studio_<i>69</i>©</h5>
+
+            <h1>Artistic works
+                Designers</h1>
+                <h6>We are a creative agency with many years of experience in photography — Since 2001.</h6>
+                
+        </div>
+
+        <div class="sidebar_menu">
+            <div class="logo">
+                <a href="#"><img src="logo-transparent-png.png" alt=""></a>
+            </div>
+
+            <div class="btn_two">
+                <label for="check" style="color: grey">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <a href="#"onclick="openloginPopup()" >Login/signup</a>
+                    </li>
+                    <li onclick="openGallery()">
+                        <i class="fa-solid fa-image"></i>
+                        <a href="#">Gallery</a>
+                    </li>
+                   
+                    <li>
+                        <i class="fa-solid fa-photo-film"></i>
+                        <a href="#" onclick="openshortcutPopup()">Shortcuts</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <a href="#" onclick="openeventPopup()">Events</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-store"></i>
+                        <a href="#" onclick="openStorePopup()" >Store</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="#" onclick="opencontactPopup()">Contact</a>
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-comments"></i>
+                        <a href="#" onclick="openFeedbackPopup()">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="social_media">
+                <ul>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/?mx=2"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fexplore%2Fsearch%2F%3F__coig_login%3D1"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://studio.youtube.com/channel/UC8BaHBFaW83rm5kZAiRJ-lA/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D"><i class="fa-brands fa-youtube"></i></a>
+                </ul>
+            </div>
+        </div>
+
+        <div id="galleryPopup" class="gallery_popup">
+            <div class="gallery_content">
+                <span class="close" onclick="closeGallery()">&times;</span>
+                <h2>Gallery</h2>
+                <div class="gallery_images">
+                    <img src="https://i.pinimg.com/236x/7b/ac/02/7bac027ae0c163556293c246dfcb2c52.jpg" alt="Image 1" onclick="openImagePopup(this.src)">
+                    <img src="https://i.pinimg.com/474x/aa/95/09/aa95091971d34dc464bcc18e75c717c0.jpg" alt="Image 2" onclick="openImagePopup(this.src)">
+                    <img src="https://i.pinimg.com/236x/49/3c/e7/493ce760bc067f2530d73365ace0d66c.jpg" alt="Image 3" onclick="openImagePopup(this.src)">
+                    <img src="https://i.pinimg.com/736x/44/ab/77/44ab7754ab0680b3acb231a0d5593588.jpg" alt="Image 4" onclick="openImagePopup(this.src)">
+                    <img src="https://i.pinimg.com/474x/9b/94/1a/9b941ae9ef6b92ae3d6d67f9d958a7f9.jpg" alt="Image 5" onclick="openImagePopup(this.src)">
+                    <img src="https://i.pinimg.com/236x/5e/75/d2/5e75d24c2089274684e864074d744495.jpg" alt="" onclick="openImagePopup(this.src)">
+                    <img src="https://i.pinimg.com/236x/32/a2/3c/32a23c7a31eaf6df9330aa0451d34617.jpg" alt="" onclick="openImagePopup(this.src)">
+                    <img src="https://i.pinimg.com/474x/53/8b/c0/538bc0d25bc171cf9db38207510cb912.jpg" alt="" onclick="openImagePopup(this.src)">
+                    <img src="https://i.pinimg.com/736x/8d/46/37/8d463795e152788c4bb5e3a5220933f5.jpg" alt="" onclick="openImagePopup(this.src)">
+                    <img src="https://i.pinimg.com/736x/61/ef/99/61ef995210d4036bb0d474bb3482637e.jpg" alt="" onclick="openImagePopup(this.src)">
+                    <img src="https://i.pinimg.com/736x/b9/a1/42/b9a14256401a2d517c7ca066cadd6364.jpg" alt="" onclick="openImagePopup(this.src)">
+                    <img src="https://i.pinimg.com/236x/9c/0e/86/9c0e865056631387c9a03c617ced6123.jpg" alt="" onclick="openImagePopup(this.src)">
+
+                </div>
+                <!-- Image Popup -->
+                <div id="imagePopup" class="image_popup">
+                  <span class="close" onclick="closeImagePopup()">&times;</span>
+                  <img id="popupImg" src="" alt="Popup Image">
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback -->
+
+        <div id="feedbackPopup" class="feedback_popup">
+            <span class="close" onclick="closeFeedbackPopup()">&times;</span>
+            <div class="popup_content">
+                <h2>Feedback Form</h2>
+                <form id="feedbackForm">
+                    <label for="info">Name:</label>
+                    <input type="text" id="info" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+            <h2>Rate Us</h2>
+            <form id="ratingForm">
+                <div class="stars" id="starContainer">
+                    <span class="star" data-value="1">★</span>
+                    <span class="star" data-value="2">★</span>
+                    <span class="star" data-value="3">★</span>
+                    <span class="star" data-value="4">★</span>
+                    <span class="star" data-value="5">★</span>
+                </div>
+                <input type="hidden" name="rating" id="ratingValue">
+                <button type="submit">Submit</button>
+            </form>
+        </form>
+
+            <script>
+                const stars = document.querySelectorAll('.star');
+                const ratingInput = document.getElementById('ratingValue');
+                const form = document.getElementById('ratingForm');
+
+                let selectedRating = 0; // Stores the selected rating
+
+                // Function to update stars based on selection
+                function updateStars(rating) {
+                    stars.forEach((star, index) => {
+                        star.classList.toggle('active', index < rating);
+                    });
+                }
+
+                // Click event for selecting a rating
+                stars.forEach((star) => {
+                    star.addEventListener('click', () => {
+                        selectedRating = star.getAttribute('data-value');
+                        ratingInput.value = selectedRating;
+                        updateStars(selectedRating);
+                    });
+                });
+
+                // Reset stars when form is submitted
+                form.addEventListener('submit', (event) => {
+                    event.preventDefault(); // Prevent actual submission for demo
+                    alert(`You rated ${selectedRating} stars!`);
+
+                    // Reset stars
+                    selectedRating = 0;
+                    ratingInput.value = "";
+                    updateStars(0);
+                });
+            </script>
+
+            </div>
+        </div>
+        <!-- contact -->
+        <div id="contactPopup" class="contact_popup">
+            <span class="close" onclick="closecontactPopup()">&times;</span>
+            <div class="popup_content">
+                <div class="qr-code">
+                    <h2>Scan & Save Contact</h2>
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=mailto:info@example.com" alt="QR Code">
+                    <h3>or</h3>
+                    <ul>
+                        <label for="email"><h4>Emial-ID :</h4></label>
+                        <li id="email">sahilwanjare999@gmail.com</li>
+                        <label for="phone"><h4>Phone-No :</h4></label>
+                        <li id="phone">+91 70589182**</li>
+                    </ul>
+                    <h6>&star;follow us on instagram- @sahilwanjare</h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- event  -->
+         <!-- Events Section -->
+
+         <div id="eventPopup" class="event_popup">
+            <span class="close" onclick="closeeventPopup()">&times;</span>
+            <div class="popup_content">
+                <div class="events-container">
+                    <h1>Upcoming Events</h1>
+            
+                    <!-- Countdown Timer -->
+                    <div class="countdown">
+                        <img src="https://i.pinimg.com/236x/ea/b5/87/eab587d1cbb485686f7f975e82111887.jpg" alt="">
+                        <h2>Next Event: <span id="event-name">Tech Conference 2025</span></h2>
+                        <p>Event starts in: <span id="timer"></span></p>
+                    </div>
+  
+                    </div>
+                </div>
+            </div>
+
+
+        <!-- login -->
+
+        <div id="loginPopup" class="login_popup">
+            <span class="close" onclick="closeloginPopup()">&times;</span>
+            <div class="popup_login">
+                <div class="container">
+                    <div class="form-box">
+                        <h2 id="form-title">Login</h2>
+            
+                        <!-- Login Form -->
+                        <form id="login-form">
+                            <input type="email" id="login-email" placeholder="Email" required>
+                            <input type="password" id="login-password" placeholder="Password" required>
+                            <button type="submit">Login</button>
+                            <p class="toggle-form">Don't have an account? <a href="#" onclick="toggleForm()">Sign Up</a></p>
+                        </form>
+            
+                        <!-- Signup Form -->
+                        <form id="signup-form" style="display: none;">
+                            <input type="text" id="signup-name" placeholder="Full Name" required>
+                            <input type="email" id="signup-email" placeholder="Email" required>
+                            <input type="password" id="signup-password" placeholder="Password" required>
+                            <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+                            <button type="submit">Sign Up</button>
+                            <p class="toggle-form">Already have an account? <a href="#" onclick="toggleForm()">Login</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- shortcuts -->
+
+
+        <!-- Shortcuts Popup -->
+        <div id="shortcutsPopup" class="popup">
+            <span class="close" onclick="closeShortcutsPopup()">&times;</span>
+                <div class="popup-shortcut">
+                    <h2>Shortcuts</h2>
+                    <ul id="shortcutsList">
+                        <li><a href="index.html"><i class="fa-solid fa-image"></i> Gallery</a></li>
+                        <li><a href="index.html"><i class="fa-solid fa-calendar-days"></i> Events</a></li>
+                        <li><a href="index.html"><i class="fa-solid fa-store"></i> Store</a></li>
+                        <li><a href="index.html"><i class="fa-solid fa-phone"></i> Contact</a></li>
+                    </ul>
+
+                    <!-- Add Custom Shortcut  -->
+                    <input type="text" id="shortcutName" placeholder="Shortcut Name">
+                    <input type="text" id="shortcutLink" placeholder="Shortcut Link">
+                    <button onclick="addShortcut()">Add Shortcut</button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+         
+        <!-- store  -->
+        <div id="storePopup" class="store_popup">
+            <span class="close" onclick="closeStorePopup()">&times;</span>
+            <div class="popup_content">
+                <h2>Our Store</h2>
+                <div class="store_items">
+                    <div class="product">
+                        <a href="eyJ2IjoiMSJ9.HUk1j5fOBiSzf9vYB-Y1nA9YYJteDxyUYcFJTBGaOHaj5Hh7GfrN5-dZbRiXvu2Nr33BymGLMO26pv9LgT84oKevOLcKg02dbFcKS07nPibIgDlmTnMnafEV9ucUt-biAeRxbk2Q4fbmcH33YKXpS3ZFOjjPtuixgu4ipXS9bLzc5Myaq4t_nYsb3G74FSDhpLbmUf56VxXZTpVDZDaE1uOuu1-dBLZMceAhWPhzsuU.Mj1i90uL7CZ3Jv57njJWFm4AOuHZyXUItjVf34WMuXA&dib_tag=se&keywords=dslr%2Bcamera&qid=1736056500&sprefix=dslr%2Caps%2C204&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY"><img src="https://m.media-amazon.com/images/I/71ELU+BPBWL._AC_UY327_FMwebp_QL65_.jpg" alt="Product 1"></a>
+                        <p>Fujifilm X-H2 40MP APS-C X-Trans Sensor|<h4> -13%</h4>₹2,13,000</p>
+                    </div>
+                    <div class="product">
+                        <a href="https://www.amazon.in/IZI-IRIS-Pocket-Vlogging-Camera/dp/B0D9M8PMLX/ref=sxin_12_sbv_search_btf?content-id=amzn1.sym.288d7cd9-bdfb-4778-882a-c15de0f76151%3Aamzn1.sym.288d7cd9-bdfb-4778-882a-c15de0f76151&crid=2Z71COVKYG122&cv_ct_cx=dslr+camera&keywords=dslr+camera&pd_rd_i=B0D9M8PMLX&pd_rd_r=0e876eb6-0629-40e8-a5a0-71f80f688658&pd_rd_w=WSQ9B&pd_rd_wg=Z8MxO&pf_rd_p=288d7cd9-bdfb-4778-882a-c15de0f76151&pf_rd_r=FYKPVVVTA562XA7X8ETZ&qid=1736056500&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=dslr%2Caps%2C204&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81"><img src="https://m.media-amazon.com/images/I/41qW1pmOA-L._SX300_SY300_QL70_FMwebp_.jpg" alt="Product 2"></a>
+                        <p>IZI IRIS Pocket 4K Vlogging Camera|<h4> -57%</h4>₹23,498</p>
+                    </div>
+                    <div class="product">
+                        <a href="https://amzn.in/d/1ZQKZiC"><img src="https://m.media-amazon.com/images/I/61yzxqIYOIL._SX679_.jpg" alt="Product 3"></a>
+                        <p>DIGITEK® (DTR 520 BH) 152CM Foldable Aluminum Tripod|<h4> -20%</h4>₹2,999.50</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
